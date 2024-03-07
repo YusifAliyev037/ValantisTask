@@ -1,0 +1,40 @@
+
+
+
+.logo{
+    width: 150px;
+}
+
+
+.header{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 20px  rgba(0, 0, 0, 0.373);
+}
+
+.info{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.icons svg{
+   width: 24px; 
+   height: 24px;
+}
+
+.active{
+    width: 10px;
+      height: 10px;
+      background: yellowgreen;
+      border-radius: 50%
+}

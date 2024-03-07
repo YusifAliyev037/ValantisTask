@@ -1,0 +1,31 @@
+import React from 'react';
+import style from "../Headers/style.module.css";
+import { CiSearch } from "react-icons/ci";
+import { CiSaveDown2 } from "react-icons/ci";
+import { PiUserLight } from "react-icons/pi";
+import { IoBagOutline } from "react-icons/io5";
+
+ function Header() {
+  return (
+    <>
+        <div className={style.header}>
+           <ul className={style.info}>
+            <li>+7 (985) 134 92 94</li>
+            <li className={style.active}></li>
+            <li>сейчас онлайн</li>
+           </ul>
+           <img className={style.logo} src="data:image/jpeg;base64,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" alt="" />
+           <ul className={style.icons}>
+            <li><CiSearch /></li>
+            <li><CiSaveDown2 /></li>
+            <li><PiUserLight /></li>
+            <li><IoBagOutline /></li>
+           </ul>
+           </div>
+        
+       </>
+  )
+}
+
+
+export default Header

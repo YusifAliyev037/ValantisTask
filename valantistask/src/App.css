@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+}
+
+input{
+  height: 40px;
+  width: 20%;
+  border-radius: 20px;
+}
+
+button{
+  border: none;
+  background-color: brown;
+  border-radius: 20px;
+  width: 10%;
+  color: white;
+
+}
+
+.search{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cardsContent{
+  display: flex;
+  border: 3px solid black;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: antiquewhite;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
